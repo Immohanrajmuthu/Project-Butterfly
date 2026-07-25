@@ -70,6 +70,8 @@ Everything before it determines the quality of everything after it.
 
 This repository currently contains the philosophy layer of Project ButterFly:
 
+- PROJECT-CONSTITUTION.md
+
 - 00-Project-ButterFly.md
 - 01-Vision.md
 - 02-Brand-Bible.md
@@ -79,17 +81,23 @@ This repository currently contains the philosophy layer of Project ButterFly:
 - 06-Product-Charter.md
 - 07-Accessibility-Charter.md
 - 08-Engineering-Charter.md
+- 09-Architecture-Charter.md
+- 10-Design-System-Charter.md
+- 11-Component-Charter.md
 
-Together, these documents answer:
+Together these documents answer:
 
 - Why do we exist?
 - What do we believe?
 - Who are we?
 - How should we design?
 - How should experiences feel?
-- How should products evolve?
-- How should we build?
+- What deserves to exist?
 - Who belongs here?
+- How should we build?
+- How should our systems be organized?
+- How do we create consistency?
+- How should reusable building blocks behave?
 
 ---
 
@@ -124,7 +132,7 @@ Only then move into implementation.
 
 ## Roadmap
 
-### Phase 1 — Philosophy
+###  ✅  Phase 1 — Philosophy
 - Project Charter
 - Vision
 - Brand Bible
@@ -134,18 +142,25 @@ Only then move into implementation.
 - Product Charter
 - Accessibility Charter
 - Engineering Charter
-
-### Phase 2 — Architecture
 - Architecture Charter
 - Design System Charter
 - Component Charter
-- Development Standards
 
-### Phase 3 — Implementation
-- Design System
-- React Components
-- Product Buildout
-- Continuous Improvement
+### 🚧 Phase 2 — Standards
+
+- Naming Standard
+- Project Structure Standard
+- Coding Standard
+- Testing Standard
+- Documentation Standard
+- Review Standard
+- Release Standard
+
+---
+
+### 🚀 Phase 3 — Reference Implementation
+
+- Kutty Couture
 
 ---
 

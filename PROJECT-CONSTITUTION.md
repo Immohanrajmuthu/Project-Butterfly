@@ -22,6 +22,12 @@ These doctrines are intentionally few, memorable, and timeless.
 
 >> Engineering Serves Experience
 
+>> Every Module Tells One Story
+
+>> Consistency Creates Confidence
+
+>> Every Component Serves One Purpose
+
 
 **No document within Project ButterFly may contradict these principles.
 
