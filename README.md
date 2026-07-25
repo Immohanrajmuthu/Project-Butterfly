@@ -2,192 +2,246 @@
 
 > **Purpose Before Code**
 
-Project ButterFly is a philosophy and decision-making framework for building thoughtful digital products.
+Project ButterFly is an open engineering methodology for building thoughtful digital products.
 
-It is not a framework.
-It is not a design system.
-It is not a development methodology.
+It combines enduring principles, engineering philosophy, practical standards, and implementation guidance into a single learning journey.
 
-It is a living set of charters, principles, and review practices that help teams build products with intention, empathy, and long-term thinking.
+Rather than focusing on specific technologies, Project ButterFly teaches **how to think about software engineering**.
 
-Before we write code, we build understanding.
-Before we build features, we build purpose.
+Whether you build web applications, mobile apps, APIs, libraries, or enterprise systems, the methodology remains the same.
 
 ---
 
-## Why Project ButterFly?
+# Engineering Journey
 
-Technology changes.
-Frameworks evolve.
-Programming languages come and go.
+Project ButterFly is intentionally organized as a progressive learning path.
 
-Good principles last.
+```text
+Constitution
+        ↓
+Charters
+        ↓
+Standards
+        ↓
+Guides
+        ↓
+Reference Implementations
+        ↓
+Templates & Tooling
+```
 
-Project ButterFly exists to ensure that every design, product, engineering, accessibility, and architecture decision begins with people—not technology.
+Each layer builds upon the previous one.
 
----
-
-## Our Philosophy
-
-Every decision begins with purpose.
-
-Vision
-    ↓
-Principles
-    ↓
-Identity
-    ↓
-Experience
-    ↓
-Product
-    ↓
-Engineering
-    ↓
-Architecture
-    ↓
-Implementation
-
-Code is only one part of the journey.
-Everything before it determines the quality of everything after it.
+The journey begins with **purpose** and ends with **practical implementation**.
 
 ---
 
-## The ButterFly Doctrines
+# Repository Structure
 
-| Charter | Doctrine |
-|---|---|
-| Project ButterFly | Purpose Before Code |
-| Design Charter | Comfort Before Conversion |
-| UX Charter | Confidence Before Completion |
-| Visual Charter | Calm is Beautiful |
-| Product Charter | Every Feature Must Earn Its Place |
-| Accessibility Charter | Inclusion Before Compliance |
-| Engineering Charter | Engineering Serves Experience |
+```text
+📂 constitution/
+    The permanent principles of Project ButterFly.
 
----
+📂 charters/
+    The philosophy behind thoughtful engineering.
 
-## Phase 1 — Foundation
+📂 standards/
+    Repeatable engineering practices.
 
-This repository currently contains the philosophy layer of Project ButterFly:
+📂 guides/
+    Practical learning resources and implementation guidance.
 
-- PROJECT-CONSTITUTION.md
+📂 reference/
+    Complete example projects demonstrating the methodology.
 
-- 00-Project-ButterFly.md
-- 01-Vision.md
-- 02-Brand-Bible.md
-- 03-Design-Charter.md
-- 04-UX-Charter.md
-- 05-Visual-Charter.md
-- 06-Product-Charter.md
-- 07-Accessibility-Charter.md
-- 08-Engineering-Charter.md
-- 09-Architecture-Charter.md
-- 10-Design-System-Charter.md
-- 11-Component-Charter.md
+📂 templates/
+    Reusable project templates and starter kits.
 
-Together these documents answer:
-
-- Why do we exist?
-- What do we believe?
-- Who are we?
-- How should we design?
-- How should experiences feel?
-- What deserves to exist?
-- Who belongs here?
-- How should we build?
-- How should our systems be organized?
-- How do we create consistency?
-- How should reusable building blocks behave?
+📂 tools/
+    Supporting utilities, generators, and automation.
+```
 
 ---
 
-## Guiding Principles
+# Documentation Overview
 
-- Purpose before implementation
-- People before technology
-- Simplicity over complexity
-- Trust over persuasion
-- Accessibility by design
-- Quality through thoughtful decisions
-- Long-term clarity over short-term convenience
+## 🏛 Constitution
 
----
+**Question answered**
 
-## How to Use Project ButterFly
+> Why do we build software this way?
 
-When making a decision, begin with the charters.
-
-Ask:
-
-- Why should this exist?
-- Who does it help?
-- Does it align with our values?
-- Does it improve the experience?
-- Does it respect every visitor?
-- Does it serve the product long-term?
-
-Only then move into implementation.
+The Constitution defines the enduring principles that guide every decision within Project ButterFly.
 
 ---
 
-## Roadmap
+## 📘 Charters
 
-###  ✅  Phase 1 — Philosophy
-- Project Charter
-- Vision
-- Brand Bible
-- Design Charter
-- UX Charter
-- Visual Charter
-- Product Charter
-- Accessibility Charter
-- Engineering Charter
-- Architecture Charter
-- Design System Charter
-- Component Charter
+**Question answered**
 
-### 🚧 Phase 2 — Standards
+> What do we believe?
 
+The Charters establish the philosophy of thoughtful product development, design, accessibility, architecture, and engineering.
+
+---
+
+## 📙 Standards
+
+**Question answered**
+
+> How do we consistently apply our philosophy?
+
+The Standards transform principles into repeatable engineering practices.
+
+### Communication
+
+- Standards Guide
 - Naming Standard
-- Project Structure Standard
-- Coding Standard
-- Testing Standard
 - Documentation Standard
-- Review Standard
+
+### Organization
+
+- Repository Structure Standard
+- Code Style Standard
+
+### Quality & Validation
+
+- Testing Standard
+- Code Review Standard
 - Release Standard
+- Versioning Standard
+- Decision Record Standard
 
 ---
 
-### 🚀 Phase 3 — Reference Implementation
+## 📗 Guides
 
+**Question answered**
+
+> How do we apply the methodology?
+
+Guides provide practical instruction, examples, workflows, and implementation advice.
+
+Planned guide categories include:
+
+- Foundation
+- Communication
+- Organization
+- Quality & Validation
+- Collaboration
+- Delivery
+
+---
+
+## 📒 Reference Implementations
+
+Reference projects demonstrate Project ButterFly in real software.
+
+Planned implementations include:
+
+- React Application
+- React Native Application
+- Node.js Backend
+- Component Library
+- Monorepo
 - Kutty Couture
 
 ---
 
-## Our Promise
+## 🛠 Templates & Tooling
 
-We are not building pages.
-We are building experiences.
+Future tooling will help teams adopt Project ButterFly more efficiently.
 
-Every decision should help people feel:
+Planned initiatives include:
 
-- Welcome
-- Comfortable
-- Confident
-- Independent
-- Respected
-
-If visitors do not notice the philosophy behind the product, but simply enjoy using it, then the philosophy is working.
+- Repository Templates
+- ADR Templates
+- Documentation Templates
+- Project Health Analyzer
+- CLI
+- VS Code Extension
+- AI Engineering Assistant
 
 ---
 
-## Project Status
+# Documentation Principles
 
-Project ButterFly is currently under active development.
+Every Project ButterFly document should:
 
-The philosophy, charters, and implementation patterns continue to evolve as the project grows.
+- Have one clear purpose.
+- Teach before instructing.
+- Remain timeless whenever possible.
+- Explain the reasoning behind recommendations.
+- Align with the Constitution.
 
-This repository is a living body of work.
+Knowledge becomes valuable when it can be shared and understood.
+
+---
+
+# Learning Roadmap
+
+If you are new to Project ButterFly, follow this order:
+
+```text
+1. Constitution
+
+2. Charters
+
+3. Standards
+
+4. Guides
+
+5. Reference Implementations
+```
+
+Each stage builds deeper understanding before introducing implementation.
+
+---
+
+# Project Roadmap
+
+| Version | Edition | Status |
+|---------|----------|--------|
+| ✅ v1.0 | Constitution Edition | Complete |
+| ✅ v1.5 | Charters Edition | Complete |
+| ✅ v2.0 | Standards Edition | Complete |
+| 🚧 v3.0 | Guides Edition | In Progress |
+| 📋 v4.0 | Reference Implementations | Planned |
+| 🚀 v5.0 | Templates & Tooling | Planned |
+
+---
+
+# Contributing
+
+Project ButterFly welcomes thoughtful contributions.
+
+Before contributing:
+
+- Read the Constitution.
+- Understand the Charters.
+- Follow the Standards.
+- Keep documentation timeless.
+- Teach, don't simply instruct.
+
+Every contribution should strengthen the project's philosophy.
+
+---
+
+# Closing Thought
+
+Purpose inspires decisions.
+
+Philosophy shapes culture.
+
+Standards create consistency.
+
+Guides develop capability.
+
+Reference implementations build confidence.
+
+Tools enable adoption.
+
+Together, they create thoughtful engineering.
 
 ---
 
@@ -196,5 +250,7 @@ This repository is a living body of work.
 > **Design with Empathy.**
 >
 > **Engineer with Excellence.**
+>
+> **Preserve the Why.**
 >
 > — Project ButterFly 🦋
